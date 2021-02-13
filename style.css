@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+header {
+    text-align: center;
+   
+}
+.conteiner {
+    width: 980px;
+    margin: 0 auto;
+}
+.main-grid{
+    display: flex;
+    
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.grid-item h3 {
+    font-size: 21px;
+    margin-bottom:35px ;
+}
+.grid-item p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.grid-item figure {
+    margin-bottom: 55px;
+    margin-top: 50px;
+}
+.grid-item:hover {
+    background-color: #7fff94;
+}
+.grid-item:hover svg {
+    fill: #fff;
+}
+.grid-item:hover h3 {color: #fff;}
+.grid-item:hover p {
+color: #fff;
+}
+.body {
+    background: #B99E98;
+}
+.div1:hover{
+    background-color: #7fff94;
+    color: #fff;
+}
+
+.h3{
+color:#00b5b7;
+font-family:Montserrat-Regular,AdobeInvisFont,MyriadHebrew-Regular ;	
+font-size: 48px;
+}
+.p {
+font-family:PTSans-Regular,AdobeInvisFont,MyriadHebrew-Regular ;		
+font-size: 18px;
+}
+.p:hover
+{ background-color: #7fff94;
+    color: #fff;}
+    .h2:hover{
+ background-color: #7fff94;
+    color: #fff;}
+    }
+.h2{
+font-family:Montserrat-Bold,AdobeInvisFont,MyriadHebrew-Regular ;		
+font-size:12px;
+}
